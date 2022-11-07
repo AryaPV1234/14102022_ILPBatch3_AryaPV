@@ -1,0 +1,14 @@
+package com.bank.utility;
+
+import com.bank.service.BankService;
+
+public class BankUtility {
+
+	public static void main(String[] args) {
+		BankService.createService();
+		BankService.createRateCard();
+		// TODO Auto-generated method stub
+
+	}
+
+}

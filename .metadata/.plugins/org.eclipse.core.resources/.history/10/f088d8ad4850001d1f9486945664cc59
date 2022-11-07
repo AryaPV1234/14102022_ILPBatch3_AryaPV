@@ -1,0 +1,27 @@
+package com.experion.entity;
+
+import java.util.Scanner;
+
+import com.experion.service.Product;
+
+public class Service {
+	
+	public static void Product createProduct()
+	{
+
+	Scanner scanner = new Scanner(System.in);
+	
+	System.out.println("Fabric");
+	String Fabric = scanner.nextLine();
+	System.out.println("Electronics ");
+	String Electronics = scanner.nextLine();
+	
+	System.out.println("Enter Which Fabric product you want");
+	String productFabric = scanner.nextLine();
+	
+	System.out.println("Enter Which electronics product you want");
+	String productelectronics = scanner.nextLine();
+	Product product = new Product(Fabric, Electronics, ProductExchange, ProductRepair, WarrantyReplacemen);
+	return product;
+	}
+}

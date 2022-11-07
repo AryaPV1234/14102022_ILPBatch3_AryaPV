@@ -1,0 +1,11 @@
+package com.bank.service;
+
+public class BankService {
+	public static void createService() {
+
+}
+	public static void createRateCard() {
+
+}
+
+}

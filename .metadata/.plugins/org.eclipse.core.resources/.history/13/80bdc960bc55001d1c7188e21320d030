@@ -1,0 +1,9 @@
+package com.bank.entity;
+import java.util.Date;
+
+public class Rate {
+	private int []min;
+	private int []max;
+	private double []rate;
+
+}

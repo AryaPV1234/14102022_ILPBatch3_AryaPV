@@ -1,0 +1,8 @@
+package com.experion.service;
+
+public interface ProductService {
+	private String productExchange;
+	private String customerCode;
+	private String purchaseDate;
+
+}
